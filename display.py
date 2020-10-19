@@ -1,5 +1,4 @@
 """ show the distance to an object, and a relevant background color. """
-#!env python3
 
 from time import sleep
 import pygame
@@ -10,9 +9,10 @@ sensor = DistanceSensor(trigger=18, echo=24)
 
 # Init pygame
 pygame.init()
-## pi 5" display
-##screen = pygame.display.set_mode([800, 480])
-screen = pygame.display.set_mode([1920, 1080])
+#pi 5" display
+screen = pygame.display.set_mode([800, 480])
+# testing screen
+##screen = pygame.display.set_mode([1920, 1080])
 white = [255, 255, 255]
 red = [255, 0, 0]
 blue = [0, 0, 255]
