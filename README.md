@@ -1,6 +1,6 @@
 # SDM-2020
 
-Halloween 2020
+Halloween 2020 toy.
 
 ## Soundtrack
 
