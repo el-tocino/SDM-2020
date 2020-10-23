@@ -57,6 +57,6 @@ def show_distance(distance):
     add_text(new_text, tcolor)
 
 while True:
-    sleep(4)
+    sleep(2)
     getdist = sensor.distance
     show_distance(getdist)
