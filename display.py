@@ -28,7 +28,7 @@ def set_bgcolor(bgcolor):
 
 def add_text(text_string, text_color):
     """ write the text to display. """
-    font = pygame.font.Font(None, 80)
+    font = pygame.font.Font(None, 55)
     text = font.render(text_string, True, text_color)
     text_rect = text.get_rect(center=(400, 240))
     screen.blit(text, text_rect)
