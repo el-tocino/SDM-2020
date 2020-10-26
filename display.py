@@ -38,15 +38,15 @@ def show_distance(distance):
     """ set the bg color, then print the distance if it's under 2 meters. """
     distnc = float(distance)
     if distnc < .9:
-        new_text = "GET BACK, MOTHER FUCKER YOU DON'T KNOW ME LIKE THAT!"
+        new_text = "Won't you back that ass up?"
         set_bgcolor(black)
         tcolor = white
-        # Ludacris
+        # Juvenile
     elif distnc < 1.5:
-        new_text = "Won't you back that ass up?"
+        new_text = "GET BACK, MOTHER FUCKER YOU DON'T KNOW ME LIKE THAT!"
         set_bgcolor(red)
         tcolor = yellow
-        # Juvenile
+        # Ludacris
     elif distnc < 2.1:
         new_text = "Don't stand so close to me!"
         set_bgcolor(yellow)
