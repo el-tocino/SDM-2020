@@ -32,7 +32,7 @@ def set_bgcolor(bgcolor):
 def add_distance(dist, text_color):
     """ add distanceto display. """
     font = pygame.font.SysFont(None, 60)
-    text = font.render(dist, True, text_color)
+    text = font.render(str(dist)[:6], True, text_color)
     text_rect = text.get_rect(center=(int(wres / 2), int(hres / 2 + 100 )))
     screen.blit(text, text_rect)
     pygame.display.update()
@@ -68,12 +68,15 @@ def show_distance(distance):
         # The Police
     else:
         set_bgcolor(blue)
+        new_text = "No proximity faults detected."
+        tcolor = white
+        fsize = 30
     add_text(new_text, tcolor, fsize)
     add_distance(distnc, tcolor)
 
 def main():
     while True:
-        sleep(1)
+        sleep(2)
         getdist = sensor.distance
         print (getdist)
         show_distance(getdist)
