@@ -48,13 +48,13 @@ def add_text(text_string, text_color, fontsize):
 def show_distance(distance):
     """ set the bg color, then print the distance if it's under 2 meters. """
     distnc = float(distance)
-    if distnc < .4:
+    if distnc < .5:
         new_text = "Won't you back that ass up?"
         set_bgcolor(red)
         tcolor = yellow 
         fsize = 64
         # Juvenile
-    elif distnc < 1.0:
+    elif distnc < 1.3:
         new_text = "GET BACK, MOTHER FUCKER YOU DON'T KNOW ME LIKE THAT!"
         set_bgcolor(yellow)
         tcolor = blue 
