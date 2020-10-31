@@ -71,8 +71,13 @@ def show_distance(distance):
     add_text(new_text, tcolor, fsize)
     add_distance(distnc, tcolor)
 
-while True:
-    sleep(1)
-    getdist = sensor.distance
-    print (getdist)
-    show_distance(getdist)
+def main():
+    while True:
+        sleep(1)
+        getdist = sensor.distance
+        print (getdist)
+        show_distance(getdist)
+
+
+if __name__ == '__main__':
+    main()
