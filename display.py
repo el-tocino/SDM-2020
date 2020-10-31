@@ -58,7 +58,7 @@ def show_distance(distance):
         new_text = "GET BACK, MOTHER FUCKER YOU DON'T KNOW ME LIKE THAT!"
         set_bgcolor(yellow)
         tcolor = blue 
-        fsize = 52
+        fsize = 45
         # Ludacris
     elif distnc < 2:
         new_text = "Don't stand so close to me!"
