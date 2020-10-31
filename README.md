@@ -1,20 +1,22 @@
-# SDM-2020
+# Social Distance Meter
 
-Halloween 2020 toy.
+Halloween 2020 toy.  
+
+Requires HC-SR04 distance meter, pygame, gpiozero.
 
 ## Soundtrack
 
-Ludacris
-https://www.youtube.com/watch?v=JGBR272672M
+Ludacris  
+https://www.youtube.com/watch?v=JGBR272672M   
 
-Juvenile
+Juvenile  
 https://www.youtube.com/watch?v=FYqmQPklI_0
-
-The Police
+  
+The Police  
 https://www.youtube.com/watch?v=aRABCGXEUXo
-
-(even more) Ludacris
+  
+(even more) Ludacris  
 https://www.youtube.com/watch?v=cEuU64Zt4B0
-
-Trying to find a way to work in some Motley Crue.
+  
+Motley Crue   
 https://www.youtube.com/watch?v=RI4SzEb5tog
